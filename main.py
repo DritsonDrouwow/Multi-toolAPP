@@ -2,7 +2,6 @@ import io, re
 from io import BytesIO
 import streamlit as st
 from huggingface_hub import InferenceClient
-from sympy import im
 import config
 # Switch provider by changing the import line:
 from groq import generate_response
